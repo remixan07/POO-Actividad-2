@@ -1,12 +1,23 @@
-package Actividad 2;
-
+import java.util.Scanner;
 public class POO_Ejercicios_Semana_2 {
+public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in)
+
     String name = "Aquiles Esquivel Madrazo";
     Scanner scanner = new System (Scanner.in);
     System.out.println("Bienvenid@");
     System.out.println("Por favor, ingrese su nombre");
-    String inserted_name;
-    if name = Ricardo
-    System.out.println("Hola Hola, Pirinola");
+    String inserted_name = lectura.next();
 
+    if (inserted_name == name) {
+        System.out.println("Hola Hola, Pirinola");
+        System.out.println("¿Cómo te va", name, "?");
+    }
+    else {
+        System.out.println("Amiguito, no estás registrado");
+        System.out.println("Intenta con otro nombre");
+    }
+
+}
+}
 }
