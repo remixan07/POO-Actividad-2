@@ -9,9 +9,12 @@ public class POO_Actividad_2_Parte_2 {
             }
             System.out.println("Los números pares guardados son")
             for (int j=0; j <numPares.length; j++) {
-                System.out.println(numPares.length; j++) 
+                System.out.println(numPares[j] + (j < numPares.length - 1 ? "," : ""));
+                if ((j + 1) % 10 == 0{
+                    System.out.println();
+                }
+                }
                 
-                
+
             }
-}
 }
